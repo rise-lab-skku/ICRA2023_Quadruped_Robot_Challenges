@@ -55,7 +55,7 @@ class URDFGenerator:
             if obj_name == '4_inch_solid_wood_block':
                 obj_name = 'solid_wood_block'
             elif obj_name == 'Akro_Mils_37278':
-                obj_name = 'Akro_mils'
+                obj_name = 'Akro_mils'                
             elif obj_name == 'Plastic_Storage_Crate_visual':
                 obj_name = 'Plastic_Storage_Crate'
             
@@ -70,7 +70,7 @@ class URDFGenerator:
                 quaternioin = obj.orientation
                 # convert quaternion to rpy
                 rpy = self.quaternion_to_euler(quaternioin)
-                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])                
+                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])      
 
                 file.write('\t<xacro:' + obj_name + ' parent="world" handle="' + str(obj.handle) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
     

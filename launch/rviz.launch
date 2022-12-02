@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- rviz visualization -->
+  <include file="$(find urdf_tutorial)/launch/display.launch">
+    <arg name="model" value="$(find ICRA2023_Quadruped_Competition)/urdf/map.urdf"/>
+  </include>
+
+</launch>
