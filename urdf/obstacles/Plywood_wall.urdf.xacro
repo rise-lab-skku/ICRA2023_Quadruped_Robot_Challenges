@@ -32,8 +32,7 @@
         <material
           name="">
           <color
-            rgba="0.22 0.76 0.94 1" />
-          <texture filename="package://ICRA2023_Quadruped_Competition/textures/wooden.jpg" />
+            rgba="1 0 0 1" />
         </material>
       </visual>
       <collision>
@@ -41,8 +40,7 @@
           xyz="0 0 0"
           rpy="0 0 0" />
         <geometry>
-          <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_wall.dae" />
+          <box size="6.1000e-01 1.2000e-02 5.9500e-01" />
         </geometry>
       </collision>
     </link>
