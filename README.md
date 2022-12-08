@@ -81,7 +81,6 @@ git clone https://github.com/rise-lab-skku/ICRA2023_Quadruped_Competition
 build & install
 ```bash
 cd ..
-mkdir build
 catkin_make
 ```
 
