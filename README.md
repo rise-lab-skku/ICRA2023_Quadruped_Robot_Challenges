@@ -17,7 +17,7 @@ A repository for quadruped robot competition. Used for build, test, and deployme
   - Jinjae Shin (jinjae92@g.skku.edu)
   - Hyungpil Moon (hyungpil@g.skku.edu)
 - Author
-  - Jeongmin Jeon (nicky707@skku.edu)
+  - Jeongmin Jeon (nicky707@g.skku.edu)
 
 
 </div>
@@ -96,4 +96,4 @@ roslaunch ICRA2023_Quadruped_Competition competition_world.launch
 ```
 
 
-In this version, we only provide a method to import the urdf environment from gazebo simulation. If you want to use another simulator, import `urdf/urdf.map` directly
+In this version, we only provide a method to import the urdf environment from gazebo simulation. If you want to use another simulator, import `urdf/map.urdf` directly
