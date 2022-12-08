@@ -76,9 +76,6 @@
       </collision>
     </link>
   
-    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}_collision_1">
-      <selfCollide>false</selfCollide>
-    </gazebo>
   
   <joint name="New_600x400_2way_Wooden_Pallet_${handle}_collision_joint_2" type="fixed">
     <origin xyz="-2.8100e-01 +0.0000e+00 -7.9997e-03" 
@@ -116,10 +113,6 @@
       </collision>
     </link>
   
-    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}_collision_2">
-      <selfCollide>false</selfCollide>
-    </gazebo>
-  
   <joint name="New_600x400_2way_Wooden_Pallet_${handle}_collision_joint_3" type="fixed">
     <origin xyz="+0.0000e+00 +1.6250e-01 +5.0000e-02" 
             rpy="0 1.5708 1.5708"/>
@@ -155,10 +148,7 @@
         </material>
       </collision>
     </link>
-  
-    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}_collision_3">
-      <selfCollide>false</selfCollide>
-    </gazebo>
+
   
   <joint name="New_600x400_2way_Wooden_Pallet_${handle}_collision_joint_4" type="fixed">
     <origin xyz="+0.0000e+00 +5.4167e-02 +5.0000e-02" 
@@ -195,10 +185,7 @@
         </material>
       </collision>
     </link>
-  
-    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}_collision_4">
-      <selfCollide>false</selfCollide>
-    </gazebo>
+
   
   <joint name="New_600x400_2way_Wooden_Pallet_${handle}_collision_joint_5" type="fixed">
     <origin xyz="+0.0000e+00 -5.4167e-02 +5.0000e-02" 
@@ -235,10 +222,7 @@
         </material>
       </collision>
     </link>
-  
-    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}_collision_5">
-      <selfCollide>false</selfCollide>
-    </gazebo>
+
   
   <joint name="New_600x400_2way_Wooden_Pallet_${handle}_collision_joint_6" type="fixed">
     <origin xyz="+0.0000e+00 -1.6250e-01 +5.0000e-02" 
@@ -276,9 +260,6 @@
       </collision>
     </link>
   
-    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}_collision_6">
-      <selfCollide>false</selfCollide>
-    </gazebo>
 
   </xacro:macro>
 </robot>
