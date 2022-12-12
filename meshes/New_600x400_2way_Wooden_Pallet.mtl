@@ -1,0 +1,11 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.3154142419)
+
+newmtl $Material_0
+Kd 1 1 1
+Ka 1 1 1
+Ks 1 1 1
+Ke 0 0 0
+illum 1
+map_Kd New_600x400_2way_Wooden_Pallet_2180010.png
+

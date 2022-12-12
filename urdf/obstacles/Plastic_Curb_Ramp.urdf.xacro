@@ -27,7 +27,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Curb_Ramp.stl"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Curb_Ramp.obj"/>
         </geometry>
         <material
           name="">
@@ -41,7 +41,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Curb_Ramp.stl" />
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Curb_Ramp.obj" />
         </geometry>
       </collision>
     </link>

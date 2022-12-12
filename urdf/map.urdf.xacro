@@ -6,6 +6,11 @@
 
 	<link name="world"/>
 
+	<gazebo reference="world">
+     	<selfCollide>false</selfCollide>
+		<static>true</static>
+	</gazebo>
+
 	<!-- New_600x400_2way_Wooden_Pallet -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/New_600x400_2way_Wooden_Pallet.urdf.xacro"/>
 
@@ -139,8 +144,11 @@
 	<xacro:New_600x400_2way_Wooden_Pallet parent="world" handle="1372" position="1.6048946380615234 -0.775026798248291 0.05800042301416397" orientation="0.0 -0.0 3.141592653589793"/>
 	<xacro:New_600x400_2way_Wooden_Pallet parent="world" handle="1374" position="1.6048951148986816 -0.37502574920654297 0.05800042301416397" orientation="0.0 -0.0 3.141592653589793"/>
 	<xacro:New_600x400_2way_Wooden_Pallet parent="world" handle="1421" position="5.804895401000977 -0.9750258922576904 0.17400041222572327" orientation="0.0 -0.0 3.141592653589793"/>
-	<xacro:New_600x400_2way_Wooden_Pallet parent="world" handle="1453" position="5.804895401000977 -0.5750260353088379 0.17400041222572327" orientation="0.0 -0.0 3.141592653589793"/>
-	<!-- Plywood_wall -->
+	<xacro:New_600x400_2way_Wooden_Pallet parent="world" handle="1453" position="5.804895401000977 -0.5750260353088379 0.17400041222572327" orientation="0.0 -0.0 3.141592653589793"/> 
+	
+
+
+	<!-- Plywood_wall 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plywood_wall.urdf.xacro"/>
 
 	<xacro:Plywood_wall parent="world" handle="31" position="3.1561059951782227 1.7300138473510742 0.2975001931190491" orientation="-1.0386224042404263e-07 -1.4901942860362443e-07 1.5708222049592406"/>
@@ -385,7 +393,9 @@
 	<xacro:Plywood_wall parent="world" handle="1486" position="1.2509856224060059 -3.386000633239746 0.29749903082847595" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/>
 	<xacro:Plywood_wall parent="world" handle="1487" position="1.4599847793579102 -4.593000411987305 0.2974993884563446" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/>
 	<xacro:Plywood_wall parent="world" handle="1488" position="1.6159861087799072 -0.9889998435974121 0.29749929904937744" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/>
-	<xacro:Plywood_wall parent="world" handle="1489" position="1.8729851245880127 -0.17800045013427734 0.2974993884563446" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/>
+	<xacro:Plywood_wall parent="world" handle="1489" position="1.8729851245880127 -0.17800045013427734 0.2974993884563446" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/> -->
+
+
 	<!-- New_EURO_EPAL_Pallet -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/New_EURO_EPAL_Pallet.urdf.xacro"/>
 
@@ -460,7 +470,10 @@
 	<xacro:New_EURO_EPAL_Pallet parent="world" handle="1411" position="4.15118932723999 -3.08910870552063 0.07199910283088684" orientation="0.0 0.0 -1.570771207274873"/>
 	<xacro:New_EURO_EPAL_Pallet parent="world" handle="1415" position="5.74017333984375 -3.6891002655029297 0.2880000174045563" orientation="0.0 0.0 -1.5707695213987865"/>
 	<xacro:New_EURO_EPAL_Pallet parent="world" handle="1476" position="1.3468437194824219 -3.9859771728515625 0.07195299863815308" orientation="0.0 -0.0 1.570799192780644"/>
-	<!-- solid_wood_block -->
+
+
+
+	<!-- solid_wood_block 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/solid_wood_block.urdf.xacro"/>
 
 	<xacro:solid_wood_block parent="world" handle="239" position="-5.165614128112793 1.2309598922729492 0.20099800825119019" orientation="0.0 0.0 -1.570799698542551"/>
@@ -535,8 +548,10 @@
 	<xacro:solid_wood_block parent="world" handle="848" position="-7.275176048278809 -0.8324832916259766 0.19397664070129395" orientation="7.37566899078446e-08 1.0538708189303816e-08 -1.5708505276407112"/>
 	<xacro:solid_wood_block parent="world" handle="849" position="-7.375187397003174 -3.632488250732422 0.19397863745689392" orientation="8.429596919570726e-08 -8.429140040669276e-08 -1.5708505276407152"/>
 	<xacro:solid_wood_block parent="world" handle="850" position="-8.54473876953125 -3.458292007446289 0.19397740066051483" orientation="2.4100564741996913e-06 2.5836333109748205e-05 -3.054380381372732"/>
-	<xacro:solid_wood_block parent="world" handle="851" position="-8.55360221862793 -3.3566784858703613 0.1939760446548462" orientation="2.4100564741996913e-06 2.5836333109748205e-05 -3.054380381372732"/>
-	<!-- Plastic_Curb_Ramp -->
+	<xacro:solid_wood_block parent="world" handle="851" position="-8.55360221862793 -3.3566784858703613 0.1939760446548462" orientation="2.4100564741996913e-06 2.5836333109748205e-05 -3.054380381372732"/> -->
+
+
+	<!-- Plastic_Curb_Ramp 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plastic_Curb_Ramp.urdf.xacro"/>
 
 	<xacro:Plastic_Curb_Ramp parent="world" handle="241" position="-5.342031002044678 0.3849940299987793 0.21559590101242065" orientation="0.0 0.0 -1.570822204959233"/>
@@ -629,6 +644,9 @@
 	<xacro:Plastic_Curb_Ramp parent="world" handle="1450" position="2.4870052337646484 -3.5399956703186035 0.21559056639671326" orientation="0.0 0.0 -1.5707941351589212"/>
 	<xacro:Plastic_Curb_Ramp parent="world" handle="1451" position="3.052003860473633 -3.5400028228759766 0.21559077501296997" orientation="0.0 0.0 -1.5707941351589212"/>
 	<xacro:Plastic_Curb_Ramp parent="world" handle="1452" position="6.3570075035095215 -1.2400012016296387 0.21559084951877594" orientation="0.0 -0.0 1.5707976754939583"/>
+	-->
+
+
 	<!-- Nisopa_Kerb_Ramp -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Nisopa_Kerb_Ramp.urdf.xacro"/>
 
@@ -720,7 +738,10 @@
 	<xacro:Nisopa_Kerb_Ramp parent="world" handle="1445" position="4.165001392364502 -3.3545026779174805 0.22499962151050568" orientation="0.0 -0.0 0.0"/>
 	<xacro:Nisopa_Kerb_Ramp parent="world" handle="1446" position="3.7650017738342285 -3.179501533508301 0.22499988973140717" orientation="0.0 -0.0 3.141592653589793"/>
 	<xacro:Nisopa_Kerb_Ramp parent="world" handle="1447" position="3.7650017738342285 -2.729499340057373 0.22500012814998627" orientation="0.0 -0.0 3.141592653589793"/>
-	<!-- seat_pad -->
+	
+
+
+	<!-- seat_pad 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/seat_pad.urdf.xacro"/>
 
 	<xacro:seat_pad parent="world" handle="580" position="-4.675163269042969 -1.4500199556350708 0.15499664843082428" orientation="1.5707963267991785 -1.5707703987751933 3.141592653589793"/>
@@ -1008,8 +1029,9 @@
 	<xacro:seat_pad parent="world" handle="1501" position="5.64980936050415 -0.9250173568725586 0.23006846010684967" orientation="1.5707963267991785 -1.5707703987751933 3.141592653589793"/>
 	<xacro:seat_pad parent="world" handle="1502" position="4.899808406829834 -2.950017213821411 0.15506912767887115" orientation="1.5707963267991785 -1.5707703987751933 3.141592653589793"/>
 	<xacro:seat_pad parent="world" handle="1503" position="5.199845314025879 -3.2500245571136475 0.15508915483951569" orientation="1.5707963267991785 -1.5707703987751933 3.141592653589793"/>
-	<xacro:seat_pad parent="world" handle="1504" position="4.899808883666992 -3.2500174045562744 0.15506912767887115" orientation="1.5707963267991785 -1.5707703987751933 3.141592653589793"/>
-	<!-- Plywood_3mm_sheet -->
+	<xacro:seat_pad parent="world" handle="1504" position="4.899808883666992 -3.2500174045562744 0.15506912767887115" orientation="1.5707963267991785 -1.5707703987751933 3.141592653589793"/> -->
+
+	<!-- Plywood_3mm_sheet 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plywood_3mm_sheet.urdf.xacro"/>
 
 	<xacro:Plywood_3mm_sheet parent="world" handle="936" position="-3.621180295944214 -1.2154817581176758 0.21497656404972076" orientation="-0.23074613180127707 1.5707957206705618 2.9107922068063177"/>
@@ -1036,8 +1058,10 @@
 	<xacro:Plywood_3mm_sheet parent="world" handle="989" position="-4.221179008483887 -1.440481424331665 0.21497513353824615" orientation="-0.3656373065931061 1.5707957852277894 2.7759010869133105"/>
 	<xacro:Plywood_3mm_sheet parent="world" handle="990" position="-4.221179008483887 -0.5404815673828125 0.21497513353824615" orientation="-0.2619030057977599 1.5707956286324318 2.879635459027633"/>
 	<xacro:Plywood_3mm_sheet parent="world" handle="991" position="-4.221179962158203 -0.76548171043396 0.21497465670108795" orientation="-0.3656373065931061 1.5707957852277894 2.7759010869133105"/>
-	<xacro:Plywood_3mm_sheet parent="world" handle="992" position="-4.221179008483887 -0.9904816150665283 0.21497513353824615" orientation="-0.3656373065931061 1.5707957852277894 2.7759010869133105"/>
-	<!-- Plywood_16mm_sheet -->
+	<xacro:Plywood_3mm_sheet parent="world" handle="992" position="-4.221179008483887 -0.9904816150665283 0.21497513353824615" orientation="-0.3656373065931061 1.5707957852277894 2.7759010869133105"/> -->
+
+
+	<!-- Plywood_16mm_sheet 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plywood_16mm_sheet.urdf.xacro"/>
 
 	<xacro:Plywood_16mm_sheet parent="world" handle="937" position="-6.182180881500244 -2.6864843368530273 0.24597860872745514" orientation="1.570823466148261 1.5707959957734061 -1.5708234661285354"/>
@@ -1071,8 +1095,10 @@
 	<xacro:Plywood_16mm_sheet parent="world" handle="965" position="-6.783184051513672 -2.6864843368530273 0.24597956240177155" orientation="1.570823466148261 1.5707959957734061 -1.5708234661285354"/>
 	<xacro:Plywood_16mm_sheet parent="world" handle="966" position="-6.783185005187988 -3.6614866256713867 0.24597860872745514" orientation="0.4489688412060442 1.5707959525334083 -2.692678090995513"/>
 	<xacro:Plywood_16mm_sheet parent="world" handle="967" position="-6.783184051513672 -3.3364851474761963 0.24597813189029694" orientation="0.4489688412060442 1.5707959525334083 -2.692678090995513"/>
-	<xacro:Plywood_16mm_sheet parent="world" handle="968" position="-6.783184051513672 -3.011484384536743 0.24597908556461334" orientation="0.4489688412060442 1.5707959525334083 -2.692678090995513"/>
-	<!-- Akro_mils -->
+	<xacro:Plywood_16mm_sheet parent="world" handle="968" position="-6.783184051513672 -3.011484384536743 0.24597908556461334" orientation="0.4489688412060442 1.5707959525334083 -2.692678090995513"/> -->
+
+
+	<!-- Akro_mils 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Akro_mils.urdf.xacro"/>
 
 	<xacro:Akro_mils parent="world" handle="994" position="-0.06995749473571777 -3.5507278442382812 0.5048317909240723" orientation="-0.0 1.5707963267948966 0.0"/>
@@ -1231,7 +1257,10 @@
 	<xacro:Akro_mils parent="world" handle="1302" position="-1.2729542255401611 -3.2496092319488525 0.7298032641410828" orientation="3.140837469321727 1.570781491100988 3.1408375648183813"/>
 	<xacro:Akro_mils parent="world" handle="1303" position="-0.06993699073791504 -4.151660919189453 0.5048302412033081" orientation="3.140837491836026 1.5707899204725266 3.1408374966738197"/>
 	<xacro:Akro_mils parent="world" handle="1304" position="-1.2729556560516357 -3.2496395111083984 0.5047961473464966" orientation="3.140837491836026 1.5707899204725266 3.1408374966738197"/>
-	<!-- Plastic_Storage_Crate -->
+	-->
+
+
+	<!-- Plastic_Storage_Crate 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plastic_Storage_Crate.urdf.xacro"/>
 
 	<xacro:Plastic_Storage_Crate parent="world" handle="995" position="-0.2699953317642212 -0.32500243186950684 0.06500090658664703" orientation="3.141592653589793 2.568959825880172e-05 3.141592653589793"/>
@@ -1390,4 +1419,5 @@
 	<xacro:Plastic_Storage_Crate parent="world" handle="1320" position="-0.6200008392333984 -1.4250025749206543 0.31499186158180237" orientation="3.1415926535894076 2.586841583107698e-05 3.1415926237874725"/>
 	<xacro:Plastic_Storage_Crate parent="world" handle="1321" position="0.43000006675720215 -0.6000022888183594 0.31501901149749756" orientation="3.1415926535894076 2.586841583107698e-05 3.1415926237874725"/>
 	<xacro:Plastic_Storage_Crate parent="world" handle="1322" position="-0.26999950408935547 -0.0500032901763916 0.06500989198684692" orientation="3.1415926535894076 2.586841583107698e-05 3.1415926237874725"/>
+	-->
 </robot>
