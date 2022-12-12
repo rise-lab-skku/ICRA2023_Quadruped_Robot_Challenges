@@ -27,7 +27,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Akro_mils.obj"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Akro_mils.stl"/>
         </geometry>
         <material
           name="red">
@@ -39,7 +39,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Akro_mils.obj" />
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Akro_mils.stl" />
         </geometry>
       </collision>
     </link>

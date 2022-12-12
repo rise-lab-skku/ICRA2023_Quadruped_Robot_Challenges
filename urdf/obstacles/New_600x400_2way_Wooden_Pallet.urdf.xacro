@@ -28,7 +28,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/New_600x400_2way_Wooden_Pallet.obj"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/New_600x400_2way_Wooden_Pallet.dae"/>
         </geometry>
         <material
           name="">

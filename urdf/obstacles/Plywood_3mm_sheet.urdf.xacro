@@ -27,7 +27,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_3mm_sheet.obj"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_3mm_sheet.dae"/>
         </geometry>
         <material
           name="">
@@ -42,7 +42,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_3mm_sheet.obj" />
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_3mm_sheet.dae" />
         </geometry>
       </collision>
     </link>
