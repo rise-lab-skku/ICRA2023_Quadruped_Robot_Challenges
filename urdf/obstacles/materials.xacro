@@ -33,4 +33,8 @@
     <color rgba="1.0 1.0 1.0 1.0"/>
   </material>
 
+  <material name="wood">
+    <color rgba="0.82 0.59 0.35 1.0"/>
+  </material>
+
 </robot>

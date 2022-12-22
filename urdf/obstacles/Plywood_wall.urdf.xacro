@@ -30,9 +30,7 @@
             filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_wall.obj"/>
         </geometry>
         <material
-          name="">
-          <color
-            rgba="1 0 0 1" />
+          name="wood">
         </material>
       </visual>
       <collision>
