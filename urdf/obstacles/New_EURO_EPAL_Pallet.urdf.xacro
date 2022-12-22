@@ -21,10 +21,7 @@
           filename="package://ICRA2023_Quadruped_Competition/meshes/New_EURO_EPAL_Pallet.dae"/>
       </geometry>
       <material
-        name="">
-        <color
-          rgba="0.22 0.76 0.94 1" />
-        <texture filename="package://ICRA2023_Quadruped_Competition/textures/wooden.jpg" />
+        name="wood">
       </material>
     </visual>
   </link>

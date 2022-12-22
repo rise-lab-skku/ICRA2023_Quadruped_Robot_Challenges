@@ -5,29 +5,14 @@
       <author>Assimp</author>
       <authoring_tool>Assimp Exporter</authoring_tool>
     </contributor>
-    <created>2022-12-02T01:15:03</created>
-    <modified>2022-12-02T01:15:03</modified>
+    <created>2022-12-22T18:11:32</created>
+    <modified>2022-12-22T18:11:32</modified>
     <unit name="meter" meter="1" />
     <up_axis>Y_UP</up_axis>
   </asset>
-  <library_images>
-    <image id="m0mat-diffuse-image">
-      <init_from>Plywood_3mm_sheet_2180010.png</init_from>
-    </image>
-  </library_images>
   <library_effects>
     <effect id="m0mat-fx" name="m0mat">
       <profile_COMMON>
-        <newparam sid="m0mat-diffuse-surface">
-          <surface type="2D">
-            <init_from>m0mat-diffuse-image</init_from>
-          </surface>
-        </newparam>
-        <newparam sid="m0mat-diffuse-sampler">
-          <sampler2D>
-            <source>m0mat-diffuse-surface</source>
-          </sampler2D>
-        </newparam>
         <technique sid="standard">
           <phong>
             <emission>
@@ -37,7 +22,7 @@
               <color sid="ambient">1   1   1   0</color>
             </ambient>
             <diffuse>
-              <texture texture="m0mat-diffuse-sampler" texcoord="CHANNEL0" />
+              <color sid="diffuse">1   1   1   0</color>
             </diffuse>
             <specular>
               <color sid="specular">1   1   1   0</color>
@@ -75,22 +60,12 @@
             </accessor>
           </technique_common>
         </source>
-        <source id="meshId0-tex0" name="meshId0-tex0">
-          <float_array id="meshId0-tex0-array" count="72"> -0.2333612442016602 0.5232335925102234 -0.2333612442016602 0.4767543971538544 1.233305692672729 0.5232345461845398 1.233305692672729 0.5232345461845398 -0.2333612442016602 0.4767543971538544 1.233305692672729 0.4767553210258484 -5.781650543212891e-06 -1.204289793968201 0.9999945163726807 -1.204290270805359 -5.066394805908203e-06 2.204161643981934 -5.066394805908203e-06 2.204161643981934 0.9999945163726807 -1.204290270805359 0.9999947547912598 2.204160928726196 -0.2333610653877258 0.4767548441886902 -0.2333610653877258 0.5232340693473816 1.233305931091309 0.4767550826072693 1.233305931091309 0.4767550826072693 -0.2333610653877258 0.5232340693473816 1.233305931091309 0.5232343077659607 0.9999945163726807 -1.204290270805359 -5.781650543212891e-06 -1.204289793968201 0.9999947547912598 2.204160928726196 0.9999947547912598 2.204160928726196 -5.781650543212891e-06 -1.204289793968201 -5.066394805908203e-06 2.204161643981934 0.4899976551532745 -0.6619836091995239 0.5099977850914001 -0.6619836091995239 0.4899977445602417 1.661959528923035 0.4899977445602417 1.661959528923035 0.5099977850914001 -0.6619836091995239 0.5099979043006897 1.661959528923035 0.4899973571300507 1.661959171295166 0.5099974870681763 1.661959171295166 0.489997535943985 -0.6619851589202881 0.489997535943985 -0.6619851589202881 0.5099974870681763 1.661959171295166 0.5099976658821106 -0.6619851589202881 </float_array>
-          <technique_common>
-            <accessor count="36" offset="0" source="#meshId0-tex0-array" stride="2">
-              <param name="S" type="float" />
-              <param name="T" type="float" />
-            </accessor>
-          </technique_common>
-        </source>
         <vertices id="meshId0-vertices">
           <input semantic="POSITION" source="#meshId0-positions" />
         </vertices>
         <polylist count="12" material="defaultMaterial">
           <input offset="0" semantic="VERTEX" source="#meshId0-vertices" />
           <input offset="0" semantic="NORMAL" source="#meshId0-normals" />
-          <input offset="0" semantic="TEXCOORD" source="#meshId0-tex0" set="0" />
           <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
           <p>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 </p>
         </polylist>
@@ -101,13 +76,12 @@
   </library_controllers>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="Node_0x7f01f6699400"  name="Node_0x7f01f6699400" type="NODE">
+      <node id="Node_0x7fe2ac9ffcc0"  name="Node_0x7fe2ac9ffcc0" type="NODE">
         <matrix sid="matrix">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#meshId0">
           <bind_material>
             <technique_common>
               <instance_material symbol="defaultMaterial" target="#m0mat">
-                <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
           </bind_material>

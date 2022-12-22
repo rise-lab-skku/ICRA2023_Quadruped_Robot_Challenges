@@ -31,9 +31,7 @@
             filename="package://ICRA2023_Quadruped_Competition/meshes/New_600x400_2way_Wooden_Pallet.dae"/>
         </geometry>
         <material
-          name="">
-          <color
-            rgba="1 0 0 1" />
+          name="wood">
         </material>
       </visual>
     </link>
