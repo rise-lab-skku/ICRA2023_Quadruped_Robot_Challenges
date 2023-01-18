@@ -27,13 +27,10 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_wall.dae"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_wall.stl"/>
         </geometry>
         <material
-          name="">
-          <color
-            rgba="0.22 0.76 0.94 1" />
-          <texture filename="package://ICRA2023_Quadruped_Competition/textures/wooden.jpg" />
+          name="wood">
         </material>
       </visual>
       <collision>
@@ -41,11 +38,14 @@
           xyz="0 0 0"
           rpy="0 0 0" />
         <geometry>
-          <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_wall.dae" />
+          <box size="6.1000e-01 1.2000e-02 5.9500e-01" />
         </geometry>
       </collision>
     </link>
   
+    <gazebo reference="Plywood_wall_${handle}">
+      <material>Gazebo/Wood</material>
+    </gazebo>
+    
   </xacro:macro>
 </robot>

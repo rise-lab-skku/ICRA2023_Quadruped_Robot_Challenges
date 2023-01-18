@@ -1,6 +1,6 @@
 # ICRA 2023 quadruped competition simulation map
 
-- Version 1.0.0
+- Version 1.0.1
 
 ---
 
