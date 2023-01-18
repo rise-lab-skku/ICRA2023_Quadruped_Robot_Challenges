@@ -30,7 +30,9 @@
             filename="package://ICRA2023_Quadruped_Competition/meshes/Akro_mils.stl"/>
         </geometry>
         <material
-          name="red">
+          name="">
+          <color
+            rgba="1.0 0.41 0.41 1" />
         </material>
       </visual>
       <collision>

@@ -12,23 +12,13 @@
 
   <link
     name="New_600x400_2way_Wooden_Pallet_${handle}">     
-      <!--
-      <inertial>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <mass value="2.385e+01"/>
-        <inertia
-        ixx="+1.051e-02" ixy="0.0" ixz="-7.090e-09"
-        iyx="0.0" iyy="+4.020e-02" iyz="0.0"
-        izx="-7.090e-09" izy="0.0" izz="+4.897e-02"/>
-      </inertial>--> 
-
       <visual>
         <origin
           xyz="0 0 0"
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/New_600x400_2way_Wooden_Pallet.dae"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/New_600x400_2way_Wooden_Pallet.stl"/>
         </geometry>
         <material
           name="wood">

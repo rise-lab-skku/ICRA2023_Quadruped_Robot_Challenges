@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">  
-  <xacro:macro name="Plywood_16mm_sheet" params="handle parent position orientation">
+  <xacro:macro name="Plywood_16mm_sheet" params="handle parent position orientation">  
 
   <joint name="Plywood_16mm_sheet_${handle}_joint" type="fixed">
     <origin xyz="${position}" rpy="${orientation}"/>
@@ -27,7 +27,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_16mm_sheet.dae"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_16mm_sheet.stl"/>
         </geometry>
         <material
           name="wood">
@@ -39,7 +39,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_16mm_sheet.dae" />
+            filename="package://ICRA2023_Quadruped_Competition/meshes/Plywood_16mm_sheet.stl" />
         </geometry>
       </collision>
     </link>

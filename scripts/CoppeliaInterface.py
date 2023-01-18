@@ -38,6 +38,7 @@ class URDFGenerator:
         f.write('<?xml version="1.0" ?>\n')
         f.write('<robot xmlns:xacro="http://ros.org/wiki/xacro" name="'+self.name+'">\n\n')
         f.write('\t<link name="world"/>\n\n')
+        f.write('\t<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/materials.xacro" />\n\n')
 
         # contents
         for obj_class in object_data.keys():
