@@ -44,5 +44,9 @@
       </collision>
     </link>
   
+    <gazebo reference="solid_wood_block_${handle}">
+      <material>Gazebo/Wood</material>
+    </gazebo>
+    
   </xacro:macro>
 </robot>

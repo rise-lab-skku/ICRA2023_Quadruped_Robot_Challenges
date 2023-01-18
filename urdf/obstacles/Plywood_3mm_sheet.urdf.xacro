@@ -44,5 +44,9 @@
       </collision>
     </link>
   
+    <gazebo reference="Plywood_3mm_sheet_${handle}">
+      <material>Gazebo/Wood</material>
+    </gazebo>
+    
   </xacro:macro>
 </robot>

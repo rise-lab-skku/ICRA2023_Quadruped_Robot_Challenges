@@ -248,6 +248,9 @@
       </collision>
     </link>
   
+    <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}">
+      <material>Gazebo/Wood</material>
+    </gazebo>
 
   </xacro:macro>
 </robot>

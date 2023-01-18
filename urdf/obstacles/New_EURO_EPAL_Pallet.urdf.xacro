@@ -214,5 +214,9 @@
       </collision>
     </link>
 
+    <gazebo reference="New_EURO_EPAL_Pallet_${handle}">
+      <material>Gazebo/Wood</material>
+    </gazebo>
+    
   </xacro:macro>
 </robot>
