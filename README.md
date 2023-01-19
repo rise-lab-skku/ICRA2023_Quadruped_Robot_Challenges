@@ -1,4 +1,4 @@
-# ICRA 2023 quadruped competition simulation map
+# ROS package for ICRA2023 Quadruped Robot Challenges simulation map 
 
 - Version 1.0.1
 
@@ -9,7 +9,7 @@
 
 **Package summary**
 
-A repository for quadruped robot competition. Used for build, test, and deployment.
+A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and deployment.
 
 - Maintainer status: maintained
 - Maintainers
@@ -42,9 +42,9 @@ A repository for quadruped robot competition. Used for build, test, and deployme
 
 <img src="doc/gazebo_map.png" width=""/>
 
-- A repository for quadruped robot competition. Used for build, test, and deployment.
-- This repository provides a ROS urdf package of robot competition map environment for simulations.
-- You can download and check competition map overview from <a href="doc/competition_map_overview.pdf" download>here</a>.
+- A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and deployment.
+- This repository provides a ROS URDF package for simulation map.
+- You can download and check map overview from <a href="doc/ICRA2023_Quadruped_Robot_Challenges_map_overview.pdf" download>here</a>.
 
 ---
 
@@ -76,7 +76,7 @@ clone the URDF package
 cd $ROS_WORKSPACE
 mkdir src
 cd src
-git clone https://github.com/rise-lab-skku/ICRA2023_Quadruped_Competition
+git clone https://github.com/rise-lab-skku/ICRA2023_Quadruped_Robot_Challenges
 ```
 
 build & install
@@ -87,12 +87,12 @@ catkin_make
 
 visualization with Rviz
 ```bash
-roslaunch ICRA2023_Quadruped_Competition rviz.launch 
+roslaunch ICRA2023_Quadruped_Robot_Challenges rviz.launch 
 ```
 
 import urdf environment from gazebo
 ```bash
-roslaunch ICRA2023_Quadruped_Competition competition_world.launch 
+roslaunch ICRA2023_Quadruped_Robot_Challenges gazebo_world.launch 
 ```
 
 
