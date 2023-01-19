@@ -62415,7 +62415,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62445,7 +62445,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62475,7 +62475,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62505,7 +62505,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62535,7 +62535,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62565,7 +62565,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62595,7 +62595,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62625,7 +62625,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62655,7 +62655,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62685,7 +62685,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62715,7 +62715,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62745,7 +62745,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62775,7 +62775,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62805,7 +62805,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62835,7 +62835,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62865,7 +62865,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62895,7 +62895,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62925,7 +62925,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62955,7 +62955,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -62985,7 +62985,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63015,7 +63015,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63045,7 +63045,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63075,7 +63075,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63105,7 +63105,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63135,7 +63135,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63165,7 +63165,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63195,7 +63195,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63225,7 +63225,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63255,7 +63255,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63285,7 +63285,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63315,7 +63315,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63345,7 +63345,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63375,7 +63375,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63405,7 +63405,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63435,7 +63435,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63465,7 +63465,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63495,7 +63495,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63525,7 +63525,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63555,7 +63555,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63585,7 +63585,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63615,7 +63615,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63645,7 +63645,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63675,7 +63675,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63705,7 +63705,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63735,7 +63735,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63765,7 +63765,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63795,7 +63795,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63825,7 +63825,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63855,7 +63855,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63885,7 +63885,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63915,7 +63915,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63945,7 +63945,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -63975,7 +63975,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64005,7 +64005,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64035,7 +64035,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64065,7 +64065,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64095,7 +64095,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64125,7 +64125,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64155,7 +64155,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64185,7 +64185,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64215,7 +64215,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64245,7 +64245,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64275,7 +64275,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64305,7 +64305,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64335,7 +64335,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64365,7 +64365,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64395,7 +64395,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64425,7 +64425,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64455,7 +64455,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64485,7 +64485,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64515,7 +64515,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64545,7 +64545,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64575,7 +64575,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64605,7 +64605,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64635,7 +64635,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64665,7 +64665,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64695,7 +64695,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64725,7 +64725,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64755,7 +64755,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64785,7 +64785,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64815,7 +64815,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64845,7 +64845,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64875,7 +64875,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64905,7 +64905,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64935,7 +64935,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64965,7 +64965,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -64995,7 +64995,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65025,7 +65025,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65055,7 +65055,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65085,7 +65085,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65115,7 +65115,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65145,7 +65145,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65175,7 +65175,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65205,7 +65205,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65235,7 +65235,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65265,7 +65265,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65295,7 +65295,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65325,7 +65325,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65355,7 +65355,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65385,7 +65385,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65415,7 +65415,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65445,7 +65445,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65475,7 +65475,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65505,7 +65505,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65535,7 +65535,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65565,7 +65565,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65595,7 +65595,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65625,7 +65625,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65655,7 +65655,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65685,7 +65685,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65715,7 +65715,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65745,7 +65745,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65775,7 +65775,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65805,7 +65805,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65835,7 +65835,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65865,7 +65865,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65895,7 +65895,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65925,7 +65925,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65955,7 +65955,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -65985,7 +65985,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66015,7 +66015,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66045,7 +66045,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66075,7 +66075,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66105,7 +66105,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66135,7 +66135,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66165,7 +66165,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66195,7 +66195,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66225,7 +66225,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66255,7 +66255,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66285,7 +66285,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66315,7 +66315,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66345,7 +66345,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66375,7 +66375,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66405,7 +66405,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66435,7 +66435,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66465,7 +66465,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66495,7 +66495,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66525,7 +66525,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66555,7 +66555,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66585,7 +66585,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66615,7 +66615,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66645,7 +66645,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66675,7 +66675,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66705,7 +66705,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66735,7 +66735,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66765,7 +66765,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66795,7 +66795,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66825,7 +66825,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66855,7 +66855,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66885,7 +66885,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66915,7 +66915,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66945,7 +66945,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -66975,7 +66975,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -67005,7 +67005,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -67035,7 +67035,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
@@ -67065,7 +67065,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
       </geometry>
       <material name="">
         <color rgba="0.22 0.76 0.94 1"/>
