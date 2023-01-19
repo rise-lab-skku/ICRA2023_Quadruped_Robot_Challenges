@@ -44,6 +44,7 @@ A repository for quadruped robot competition. Used for build, test, and deployme
 
 - A repository for quadruped robot competition. Used for build, test, and deployment.
 - This repository provides a ROS urdf package of robot competition map environment for simulations.
+- You can download and check competition map overview from <a href="doc/competition_map_overview.pdf" download>here</a>.
 
 ---
 
