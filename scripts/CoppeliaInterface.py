@@ -354,14 +354,12 @@ if __name__ == '__main__':
     # if os.environ.get('COPPELIASIM_VERSION') is not None:
     #     coppelia_ver = os.environ["COPPELIASIM_VERSION"].replace("V","").replace("_",".").replace(".0","")
 
-    ttt_dir = SCENE_PATH + 'v' + coppelia_ver +'/tablewares.ttt'
-
     client = Client()    
     client.startSimulation()
 
     # object lists
-    obj_list = ['New_600x400_2way_Wooden_Pallet', 
-                'Plywood_wall', 
+    obj_list = ['Plywood_wall', 
+                'New_600x400_2way_Wooden_Pallet', 
                 'New_EURO_EPAL_Pallet', 
                 '4_inch_solid_wood_block', 
                 'Plastic_Curb_Ramp', 
@@ -370,7 +368,8 @@ if __name__ == '__main__':
                 'Plywood_3mm_sheet', 
                 'Plywood_16mm_sheet', 
                 'Akro_mils', 
-                'Plastic_Storage_Crate_visual']
+                'Plastic_Storage_Crate_visual',
+                ]
 
     # load objects
     obstacles = client.updateSceneObjectsFromScript(obj_list)
