@@ -375,8 +375,8 @@ if __name__ == '__main__':
     obstacles = client.updateSceneObjectsFromScript(obj_list)
     
     for obj in obj_list:
-        obj_class = obj
-        print(obj_class, len(obstacles[obj_class]))
+        if obj in list(obstacles):
+            print(obj, len(obstacles[obj]))
 
     
     # create urdf.xacro

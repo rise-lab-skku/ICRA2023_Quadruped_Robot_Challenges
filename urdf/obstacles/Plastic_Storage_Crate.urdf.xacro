@@ -40,9 +40,13 @@
           xyz="0 0 0"
           rpy="0 0 0" />
         <geometry>
-          <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl" />
+          <box size="3.4000e-01 2.6000e-01 1.3000e-01" />
         </geometry>
+        <material
+          name="">
+          <color
+            rgba="1 0 0 1" />
+        </material>
       </collision>
     </link>
 
