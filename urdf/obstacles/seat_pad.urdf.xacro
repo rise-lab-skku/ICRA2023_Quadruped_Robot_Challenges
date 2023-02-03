@@ -40,9 +40,13 @@
           xyz="0 0 0"
           rpy="0 0 0" />
         <geometry>
-          <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/seat_pad.stl" />
+          <box size="1.0000e-02 3.0000e-01 3.0000e-01" />
         </geometry>
+        <material
+          name="">
+          <color
+            rgba="1 0 0 1" />
+        </material>
       </collision>
     </link>
   
