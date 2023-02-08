@@ -52,6 +52,7 @@
 
     <gazebo reference="Akro_mils_${handle}">
       <material>Gazebo/RedBright</material>
+      <static>true</static>
     </gazebo>
 
   </xacro:macro>

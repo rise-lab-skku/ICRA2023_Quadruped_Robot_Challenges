@@ -250,6 +250,7 @@
   
     <gazebo reference="New_600x400_2way_Wooden_Pallet_${handle}">
       <material>Gazebo/Wood</material>
+      <static>true</static>
     </gazebo>
 
   </xacro:macro>

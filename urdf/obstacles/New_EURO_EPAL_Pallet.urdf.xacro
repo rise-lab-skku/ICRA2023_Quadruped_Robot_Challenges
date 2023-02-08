@@ -216,6 +216,7 @@
 
     <gazebo reference="New_EURO_EPAL_Pallet_${handle}">
       <material>Gazebo/Wood</material>
+      <static>true</static>
     </gazebo>
     
   </xacro:macro>

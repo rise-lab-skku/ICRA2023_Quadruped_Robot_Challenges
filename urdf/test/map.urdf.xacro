@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="competition_map_inner">
-
+	<gazebo>
+	<static>true</static>
+	</gazebo>
 	<link name="world"/>
 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/materials.xacro" />
@@ -15,13 +17,13 @@
 
 	<!-- Terrain 2 -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/test/terrain2_inner.urdf.xacro"/>
-	<xacro:terrain2_inner parent="world" handle="1" position="-1.3557e+00 +1.5330e+00 +2.3376e-01" orientation="0 0 0"/>
+	<xacro:terrain2_inner parent="world" handle="1" position="-1.3557e+00 +1.5330e+00 +2.3376e-01" orientation="0 0 0"/> 
 
 	<!-- Terrain 3 -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/test/terrain3_inner.urdf.xacro"/>
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/test/terrain3_inner2.urdf.xacro"/>
 	<xacro:terrain3_inner parent="world" handle="1" position="-5.4230e+00 +1.0305e+00 +2.9750e-01" orientation="0 0 0"/>
-	<xacro:terrain3_inner2 parent="world" handle="1" position="-5.4960e+00 +1.2250e+00 +1.5000e-01" orientation="0 0 0"/> 
+	<xacro:terrain3_inner2 parent="world" handle="1" position="-5.4960e+00 +1.2250e+00 +1.5000e-01" orientation="0 0 0"/>   
 
 	<!-- Terrain 4 -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/test/terrain4_inner.urdf.xacro"/>
@@ -31,6 +33,7 @@
 
 	<!-- Terrain 5 -->
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plastic_Storage_Crate.urdf.xacro"/>
+
 	<xacro:Plastic_Storage_Crate parent="world" handle="411" position="-0.2699953317642212 -0.32500243186950684 0.06500090658664703" orientation="3.141592653589793 2.568959825880172e-05 3.141592653589793"/>
 	<xacro:Plastic_Storage_Crate parent="world" handle="421" position="0.7800014019012451 -1.9750040769577026 0.065028116106987" orientation="3.141592653589793 2.568959825880172e-05 3.141592653589793"/>
 	<xacro:Plastic_Storage_Crate parent="world" handle="422" position="0.7800008058547974 -1.7000020742416382 0.06502814590930939" orientation="0.0 -2.5868415831076987e-05 0.0"/>
@@ -187,7 +190,7 @@
 	<xacro:Plastic_Storage_Crate parent="world" handle="573" position="-0.6200008392333984 -1.4250025749206543 0.31499186158180237" orientation="3.1415926535894076 2.586841583107698e-05 3.1415926237874725"/>
 	<xacro:Plastic_Storage_Crate parent="world" handle="574" position="0.43000006675720215 -0.6000022888183594 0.31501901149749756" orientation="3.1415926535894076 2.586841583107698e-05 3.1415926237874725"/>
 	<xacro:Plastic_Storage_Crate parent="world" handle="575" position="-0.26999950408935547 -0.0500032901763916 0.06500989198684692" orientation="3.1415926535894076 2.586841583107698e-05 3.1415926237874725"/>
-	
+
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/Plywood_wall.urdf.xacro"/>
 	<xacro:Plywood_wall parent="world" handle="412" position="-1.1950156688690186 0.08799886703491211 0.29749956727027893" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/>
 	<xacro:Plywood_wall parent="world" handle="413" position="-0.5840157866477966 0.08799958229064941 0.29749956727027893" orientation="-5.960464655174745e-08 -5.960464299903366e-08 5.960464655174745e-08"/>

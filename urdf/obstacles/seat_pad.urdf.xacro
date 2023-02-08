@@ -52,6 +52,7 @@
   
     <gazebo reference="Plastic_Storage_Crate_${handle}">
       <material>Gazebo/Grey</material>
+      <static>true</static>
     </gazebo>
 
   </xacro:macro>

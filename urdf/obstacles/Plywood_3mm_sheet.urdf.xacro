@@ -46,6 +46,7 @@
   
     <gazebo reference="Plywood_3mm_sheet_${handle}">
       <material>Gazebo/Wood</material>
+      <static>true</static>
     </gazebo>
     
   </xacro:macro>
