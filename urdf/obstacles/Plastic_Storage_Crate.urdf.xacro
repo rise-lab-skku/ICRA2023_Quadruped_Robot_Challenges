@@ -30,7 +30,7 @@
             filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Storage_Crate.stl"/>
         </geometry>
         <material
-          name="">
+          name="blue">
           <color
             rgba="0.22 0.76 0.94 1" />
         </material>

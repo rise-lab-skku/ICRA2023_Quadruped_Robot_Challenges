@@ -1,0 +1,12 @@
+<!-- -->
+<launch>
+
+  <arg name="use_sim_time" default="true"/>
+  <arg name="use_gpu" default="false"/>
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="IsaacGym_World" pkg="ICRA2023_Quadruped_Competition" type="IsaacGymInterface.py">
+    <param name="/use_gpu" value="$(arg use_gpu)" />
+  </node>
+
+</launch>

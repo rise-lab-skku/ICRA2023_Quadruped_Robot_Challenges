@@ -31,7 +31,7 @@
             filename="package://ICRA2023_Quadruped_Competition/meshes/Nisopa_Kerb_Ramp.stl"/>
         </geometry>
         <material
-          name="">
+          name="rubber">
           <color
             rgba="0.4 0.39 0.43 1" />
         </material>

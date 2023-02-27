@@ -30,7 +30,7 @@
             filename="package://ICRA2023_Quadruped_Competition/meshes/Plastic_Curb_Ramp.stl"/>
         </geometry>
         <material
-          name="">
+          name="rubber">
           <color
             rgba="0.19 0.21 0.19 1" />
         </material>
