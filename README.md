@@ -104,7 +104,7 @@ The number of obstacles may be so large that the simulation speed is not guarant
 
 There are two ways to speed up the simulation.
 
-If you have selected a course, you can use the launch parameter to load only the obstacles for that specific course.
+- If you have selected a course, you can use the launch parameter to load only the obstacles for that specific course.
 ```bash
 roslaunch ICRA2023_Quadruped_Robot_Challenges gazebo_world.launch course:=inner or outer
 ```
@@ -112,3 +112,5 @@ roslaunch ICRA2023_Quadruped_Robot_Challenges gazebo_world.launch course:=inner 
 You can speed up the simulation by adjusting the max step size of the simulation. 
 In this case, the physics calculation will be less accurate.
 For Gazebo, select the Physics menu from the world tab on the left and adjust the max step size below. (default: 0.001)
+
+- If you are having trouble loading a lot of objects, use a single stl file `meshes/compound/terrain_map.stl` to generate your maps
