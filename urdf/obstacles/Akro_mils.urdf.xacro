@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">  
-  <xacro:macro name="Akro_mils" params="handle parent position orientation">
+  <xacro:macro name="map_part" params="handle parent position orientation">
 
-  <joint name="Akro_mils_${handle}_joint" type="fixed">
+  <joint name="map_part${handle}_joint" type="fixed">
     <origin xyz="${position}" rpy="${orientation}"/>
     <parent link="${parent}"/>
-    <child link="Akro_mils_${handle}"/>
+    <child link="map_part${handle}"/>
   </joint>
 
     <link
-      name="Akro_mils_${handle}">
+      name="map_part${handle}">
       
       <inertial>
         <origin xyz="0 0 0.5" rpy="0 0 0"/>
@@ -27,12 +27,10 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://ICRA2023_Quadruped_Competition/meshes/Akro_mils.stl"/>
+            filename="package://ICRA2023_Quadruped_Competition/meshes/part/map_part.dae"/>
         </geometry>
-        <material
-          name="red">
-          <color
-            rgba="1.0 0.41 0.41 1" />
+        <material name="">
+          <!-- <color rgba="1.0 0.41 0.41 1" />-->
         </material>
       </visual>
       <collision>
@@ -40,18 +38,16 @@
           xyz="0 0 0"
           rpy="0 0 0" />
         <geometry>
-          <box size="2.0955e-01 2.9885e-01 4.0000e-01" />
+          <mesh
+            filename="package://ICRA2023_Quadruped_Competition/meshes/map_part.dae"/>
         </geometry>
-        <material
-          name="">
-          <color
-            rgba="1 0 0 1" />
+        <material name="">
+          <!-- <color rgba="1 0 0 1" />-->
         </material>
       </collision>
     </link>
 
-    <gazebo reference="Akro_mils_${handle}">
-      <material>Gazebo/RedBright</material>
+    <gazebo reference="map_part${handle}">
     </gazebo>
 
   </xacro:macro>
