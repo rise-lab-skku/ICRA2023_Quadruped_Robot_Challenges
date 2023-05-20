@@ -75,7 +75,7 @@ class MapURDFGenerator:
                 quaternioin = obj.orientation
                 # convert quaternion to rpy
                 rpy = self.quaternion_to_euler(quaternioin)
-                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])      
+                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])
 
                 file.write('\t<xacro:' + obj_name + ' parent="world" handle="' + str(obj.handle) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
 
@@ -88,14 +88,15 @@ class MapURDFGenerator:
 
 class ObstacleURDFGenerator:
 
-    def __init__(self, name, path):
+    def __init__(self, name, path, format):
         # init parameters
         self.package_path = path
         self.name = name
+        self.format = format
         self.file_path = self.package_path +'/urdf/obstacles/' + self.name + '.urdf.xacro'
 
 
-    def generate(self, object_data):
+    def generate(self):
         '''
         Make file in specific directory
         '''
@@ -104,22 +105,22 @@ class ObstacleURDFGenerator:
         f = open(self.file_path, 'w+')
 
         # header
-        f.write('<?xml version="1.0" encoding="utf-8"?>\n')
+        f.write('<?xml version="1.0" encoding="utf-8"?>\n\n')
         f.write('<robot xmlns:xacro="http://ros.org/wiki/xacro">\n')
-        f.write('\t<xacro:macro name="' + self.name + ' params="handle parent position orientation">\n\n')
+        f.write('\t<xacro:macro name="obs_' + self.name + '" params="handle parent position orientation">\n\n')
 
         # virtual joint
         f.write('\t<joint name="' + self.name + '${handle}_joint" type="fixed">\n')
         f.write('\t\t<origin xyz="${position}" rpy="${orientation}"/>\n')
         f.write('\t\t<parent link="${parent}"/>\n')
         f.write('\t\t<child link="' + self.name + '${handle}"/>\n')
-        f.write('\t</joint>\n')
+        f.write('\t</joint>\n\n')
 
         # link
         f.write('\t<link name="' + self.name + '${handle}">\n\n')
 
         f.write('\t\t<inertial>\n')
-        f.write('\t\t\t<origin xyz="0 0 0.5" rpy="0 0 0"/>\n')
+        f.write('\t\t\t<origin xyz="0 0 0" rpy="0 0 0"/>\n')
         f.write('\t\t\t<mass value="1"/>\n')
         f.write('\t\t\t<inertia\n')
         f.write('\t\t\t\tixx="1.0" ixy="0.0" ixz="0.0"\n')
@@ -130,46 +131,32 @@ class ObstacleURDFGenerator:
         f.write('\t\t<visual>\n')
         f.write('\t\t\t<origin xyz="0 0 0" rpy="0 0 0"/>\n')
         f.write('\t\t\t<geometry>\n')
-        f.write('\t\t\t\t<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/obstacles/' + self.name + '.dae"/>\n')
+        f.write('\t\t\t\t<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/' + self.name + '.' + self.format + '"/>\n')
+        f.write('\t\t\t</geometry>\n')
+        f.write('\t\t\t<material name="">\n')
+        f.write('\t\t\t</material>\n')
         f.write('\t\t</visual>\n\n')
 
+        f.write('\t\t<collision>\n')
+        f.write('\t\t\t<origin xyz="0 0 0" rpy="0 0 0"/>\n')
+        f.write('\t\t\t<geometry>\n')
+        f.write('\t\t\t\t<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/' + self.name + '.' + self.format + '"/>\n')
+        f.write('\t\t\t</geometry>\n')
+        f.write('\t\t\t<material name="">\n')
+        f.write('\t\t\t</material>\n')
+        f.write('\t\t</collision>\n\n')
+
+        f.write('\t</link>\n\n')
+
+
+        f.write('\t<gazebo reference="'+ self.name + '${handle}">\n')
+        f.write('\t</gazebo>\n\n')
+
         # close
+        f.write("\t</xacro:macro>\n")
         f.write("</robot>")
         f.close()
         return True
-
-    def add_object(self, file, object_list):
-        if len(object_list)>0:
-            obj_name = object_list[0].name
-
-            if obj_name == '4_inch_solid_wood_block':
-                obj_name = 'solid_wood_block'
-            elif obj_name == 'Akro_Mils_37278':
-                obj_name = 'Akro_mils'
-            elif obj_name == 'Plastic_Storage_Crate_visual':
-                obj_name = 'Plastic_Storage_Crate'
-
-            # include object xacro
-            file.write('\t<!-- ' + obj_name + ' -->\n')
-            file.write('\t<xacro:include filename="$(find '+ PKG_NAME + ')/urdf/obstacles/' + obj_name + '.urdf.xacro"/>\n\n')
-
-            for obj in object_list:
-
-                position = str(obj.position[0]) + ' ' + str(obj.position[1]) + ' ' + str(obj.position[2])
-
-                quaternioin = obj.orientation
-                # convert quaternion to rpy
-                rpy = self.quaternion_to_euler(quaternioin)
-                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])      
-
-                file.write('\t<xacro:' + obj_name + ' parent="world" handle="' + str(obj.handle) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
-
-    def quaternion_to_euler(self, quaternion):
-        euler = tf.transformations.euler_from_quaternion(quaternion)
-        roll = euler[0]
-        pitch = euler[1]
-        yaw = euler[2]
-        return [roll, pitch, yaw]
 
 
 object_instances = []
@@ -197,5 +184,11 @@ with open(PKG_PATH + '/scripts/object_list.txt','r') as csvfile:
 # remove duplicate name in list
 object_ids = list(dict.fromkeys(object_ids))
 print((object_ids, len(object_ids)))
+
+for obj in object_instances:
+        print(obj.name, obj.id, obj.size, obj.pos, obj.quat, obj.euler)
+        ug = ObstacleURDFGenerator(obj.name, PKG_PATH, 'obj')
+        ug.generate()
+
 
 

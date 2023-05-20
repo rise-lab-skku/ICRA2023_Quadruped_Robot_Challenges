@@ -5,36 +5,40 @@
 <!-- =================================================================================== -->
 <robot name="competition_map">
   <link name="world"/>
-  <joint name="1200x2400_OSB1_joint" type="fixed">
+  <joint name="map_part1_joint" type="fixed">
     <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
     <parent link="world"/>
-    <child link="1200x2400_OSB1"/>
+    <child link="map_part1"/>
   </joint>
-  <link name="1200x2400_OSB1">
+  <link name="map_part1">
     <inertial>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 0" xyz="0 0 0.5"/>
       <mass value="1"/>
       <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
     </inertial>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/1200x2400_OSB.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/part/map_part.stl"/>
       </geometry>
       <material name="">
-			</material>
+        <color rgba="1.0 0.41 0.41 1"/>
+      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/1200x2400_OSB.obj"/>
+        <mesh filename="package://ICRA2023_Quadruped_Competition/meshes/part/map_part.stl"/>
       </geometry>
       <material name="">
-			</material>
+        <!-- <color rgba="1 0 0 1" />-->
+      </material>
     </collision>
   </link>
-  <gazebo reference="1200x2400_OSB1">
-	</gazebo>
+  <gazebo reference="map_part1">
+    <material>Gazebo/Wood</material>
+    <static>true</static>
+  </gazebo>
   <gazebo>
     <static>true</static>
   </gazebo>
