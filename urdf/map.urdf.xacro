@@ -3,7 +3,7 @@
 
 	<link name="world"/>
 
-	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/New_600x400_2way_Wooden_Pallet.urdf.xacro"/>
+	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/maps/map_part.urdf.xacro"/>
 
 	<xacro:map_part parent="world" handle="1" position="0 0 0" orientation="0.0 0.0 0.0"/>
 </robot>
