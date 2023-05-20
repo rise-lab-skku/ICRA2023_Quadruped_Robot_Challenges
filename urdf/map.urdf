@@ -36,6 +36,11 @@
     </collision>
   </link>
   <gazebo reference="map_part1">
-    </gazebo>
+    <material>Gazebo/Wood</material>
+    <static>true</static>
+  </gazebo>
+  <gazebo>
+    <static>true</static>
+  </gazebo>
 </robot>
 

@@ -48,6 +48,8 @@
     </link>
 
     <gazebo reference="map_part${handle}">
+      <material>Gazebo/Wood</material>
+      <static>true</static>
     </gazebo>
 
   </xacro:macro>

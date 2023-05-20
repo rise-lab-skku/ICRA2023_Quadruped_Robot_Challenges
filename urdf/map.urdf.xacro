@@ -6,4 +6,8 @@
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/maps/map_part.urdf.xacro"/>
 
 	<xacro:map_part parent="world" handle="1" position="0 0 0" orientation="0.0 0.0 0.0"/>
+	
+	<gazebo>
+		<static>true</static>
+	</gazebo>
 </robot>
