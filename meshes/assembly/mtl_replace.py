@@ -11,7 +11,8 @@ for mtl in mtl_files:
         
         if 'map_Kd' in lines[-1]:
             # remove strings before the 'maps' in the last line
-            lines[-1] = 'map_Kd maps/' + lines[-1].split('maps\\\\')[1]
+            #lines[-1] = 'map_Kd maps/' + lines[-1].split('maps\\\\')[1]
+            lines[-1] = lines[-1].replace('_8.', '.')
             
             # write to file
             with open(mtl, 'w') as f:
