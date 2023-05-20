@@ -10,6 +10,73 @@ class Obstacle():
         self.quat = quat
         self.euler = euler
 
+
+class URDFGenerator:    
+
+    def __init__(self, name, path):      
+        # init parameters
+        self.package_path = path
+        self.name = name
+        self.file_path = self.package_path +'/urdf/map.urdf.xacro'
+ 
+
+    def generate(self, object_data):
+        '''
+        Make file in specific directory
+        '''
+        result = True
+        # open file
+        f = open(self.file_path, 'w+')
+
+        # header
+        f.write('<?xml version="1.0" ?>\n')
+        f.write('<robot xmlns:xacro="http://ros.org/wiki/xacro" name="'+self.name+'">\n\n')
+        f.write('\t<link name="world"/>\n\n')
+        f.write('\t<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/materials.xacro" />\n\n')
+
+        # contents
+        for obj_class in object_data.keys():
+            self.add_object(f, object_data[obj_class])
+
+        # close
+        f.write("</robot>")
+        f.close()
+        return True
+
+    def add_object(self, file, object_list):
+        if len(object_list)>0:
+            obj_name = object_list[0].name
+
+            if obj_name == '4_inch_solid_wood_block':
+                obj_name = 'solid_wood_block'
+            elif obj_name == 'Akro_Mils_37278':
+                obj_name = 'Akro_mils'                
+            elif obj_name == 'Plastic_Storage_Crate_visual':
+                obj_name = 'Plastic_Storage_Crate'
+            
+            # include object xacro
+            file.write('\t<!-- ' + obj_name + ' -->\n')
+            file.write('\t<xacro:include filename="$(find '+ PKG_NAME + ')/urdf/obstacles/' + obj_name + '.urdf.xacro"/>\n\n')
+            
+            for obj in object_list:
+
+                position = str(obj.position[0]) + ' ' + str(obj.position[1]) + ' ' + str(obj.position[2])
+
+                quaternioin = obj.orientation
+                # convert quaternion to rpy
+                rpy = self.quaternion_to_euler(quaternioin)
+                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])      
+
+                file.write('\t<xacro:' + obj_name + ' parent="world" handle="' + str(obj.handle) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
+    
+    def quaternion_to_euler(self, quaternion):
+        euler = tf.transformations.euler_from_quaternion(quaternion)
+        roll = euler[0]
+        pitch = euler[1]
+        yaw = euler[2]
+        return [roll, pitch, yaw]
+
+
 object_instances = []
 object_ids = []
 ['1200x2400_OSB', '1200x600_OSB', '12_00x1200_OSB_1', '12_00x1200_OSB', '1_1m_5x10cm_beam', '1_2m_5x10cm_beam_1', '1_2m_5x10cm_beam', '1', '2_4m_5x10cm_beam', '2', '300x600_OSB', '3', "42'_2x2_baluster", '450mm_hurdle_retainer', '4_1', '5x5x30_cm_wall_corner', '600x1200_OSB', '600x2400_OSB', '', 'Component_246', 'Component_247', 'Component_248', 'Component_249', 'Component_251', 'Component_272', 'Component_2', 'Component_363', 'Component_7', 'Crate_4', 'Diagonal_beam_5x10cm_1', 'fin_2', 'foam', 'Group_1595', 'Group_1596', 'Group_2258', 'Group_2261', 'Group_362', 'Group_368', 'Group_369', 'Group_36', 'Group_371', 'Group_38', 'Group_41', 'Group_73', 'Group_74', 'Group_75', 'Group_9', 'Half_Crate', 'Hingeplate', 'Hurdle_pipe', 'Hurdle_spacer', 'K_rail_rail', 'Obstructed1', 'Obstructed1A', 'Obstructed2', 'Obstructed2A', 'Obstructed3', 'Obstructed3A', 'Obstructed4', 'Obstructed4A', 'Pallet_leg', 'Ramp_side', 'Ramp_top', 'RampBrace', 'Slope_back', 'Slope_backplate', 'Slope_leg', 'Slope_post_1', 'Slope_post_2', 'Slope_sidewall', 'Sloper_brace', 'WtBkt_GrnRng_8in_4', 'WtBkt_GrnRng_8in_5']  #73

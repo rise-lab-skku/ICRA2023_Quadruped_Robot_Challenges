@@ -1,15 +1,10 @@
-from distutils.command.clean import clean
-import string
 from simApi import sim
 
 import rospy
 import rospkg
 import tf
-from geometry_msgs.msg import Pose
 import time
 import os 
-import sys
-import yaml
 
 ros_root = rospkg.get_ros_root()
 r = rospkg.RosPack()
