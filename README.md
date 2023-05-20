@@ -1,6 +1,6 @@
 # ICRA 2023 quadruped competition simulation map
 
-- Version 1.0.0
+- Version 2.0.1
 
 ---
 
@@ -14,7 +14,6 @@ A repository for quadruped robot competition. Used for build, test, and deployme
 - Maintainer status: maintained
 - Maintainers
   - Jeongmin Jeon (nicky707@g.skku.edu)
-  - Jinjae Shin (jinjae92@g.skku.edu)
   - Hyungpil Moon (hyungpil@g.skku.edu)
 - Author
   - Jeongmin Jeon (nicky707@g.skku.edu)
@@ -91,7 +90,7 @@ roslaunch ICRA2023_Quadruped_Competition rviz.launch
 
 import urdf environment from gazebo
 ```bash
-roslaunch ICRA2023_Quadruped_Competition competition_world.launch 
+roslaunch ICRA2023_Quadruped_Competition gazebo_world.launch 
 ```
 
 
