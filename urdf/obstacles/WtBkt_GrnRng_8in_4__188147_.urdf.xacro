@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:macro name="obs_WtBkt_GrnRng_8in_4__188147_" params="handle parent position orientation">
+
+	<joint name="WtBkt_GrnRng_8in_4__188147_${handle}_joint" type="fixed">
+		<origin xyz="${position}" rpy="${orientation}"/>
+		<parent link="${parent}"/>
+		<child link="WtBkt_GrnRng_8in_4__188147_${handle}"/>
+	</joint>
+
+	<link name="WtBkt_GrnRng_8in_4__188147_${handle}">
+
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="1"/>
+			<inertia
+				ixx="1.0" ixy="0.0" ixz="0.0"
+				iyy="1.0" iyz="0.0"
+				izz="1.0"/>
+		</inertial>
+
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/WtBkt_GrnRng_8in_4__188147_.obj"/>
+			</geometry>
+			<material name="">
+			</material>
+		</visual>
+
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/WtBkt_GrnRng_8in_4__188147_.obj"/>
+			</geometry>
+			<material name="">
+			</material>
+		</collision>
+
+	</link>
+
+	<gazebo reference="WtBkt_GrnRng_8in_4__188147_${handle}">
+	</gazebo>
+
+	</xacro:macro>
+</robot>

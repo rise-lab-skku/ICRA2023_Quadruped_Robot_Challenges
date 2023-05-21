@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:macro name="obs_450mm_hurdle_retainer__231181_" params="handle parent position orientation">
+
+	<joint name="450mm_hurdle_retainer__231181_${handle}_joint" type="fixed">
+		<origin xyz="${position}" rpy="${orientation}"/>
+		<parent link="${parent}"/>
+		<child link="450mm_hurdle_retainer__231181_${handle}"/>
+	</joint>
+
+	<link name="450mm_hurdle_retainer__231181_${handle}">
+
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="1"/>
+			<inertia
+				ixx="1.0" ixy="0.0" ixz="0.0"
+				iyy="1.0" iyz="0.0"
+				izz="1.0"/>
+		</inertial>
+
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/450mm_hurdle_retainer__231181_.obj"/>
+			</geometry>
+			<material name="">
+			</material>
+		</visual>
+
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/450mm_hurdle_retainer__231181_.obj"/>
+			</geometry>
+			<material name="">
+			</material>
+		</collision>
+
+	</link>
+
+	<gazebo reference="450mm_hurdle_retainer__231181_${handle}">
+	</gazebo>
+
+	</xacro:macro>
+</robot>

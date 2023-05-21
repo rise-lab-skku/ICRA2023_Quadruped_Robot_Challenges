@@ -70,7 +70,8 @@ class MapURDFGenerator:
 
         quaternioin = obstacle.quat
         # convert quaternion to rpy
-        rpy = self.quaternion_to_euler(quaternioin)
+        # TODO: fix orientation problem in blender
+        rpy = [0,0,0] #self.quaternion_to_euler(quaternioin)
         orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])
 
         file.write('\t<xacro:obs_' + obj_name.replace("'", "inch") + ' parent="world" handle="' + str(obstacle.id) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
@@ -166,7 +167,8 @@ with open(PKG_PATH + '/scripts/object_list.txt','r') as csvfile:
     for i, row in enumerate(csvreader):
         alias = row[0].split('.')
         id = 0
-        name = alias[0].split('__')[0]
+
+        name = alias[0] # alias[0].split('__')[0]
         if name in object_cnt:
             object_cnt[name] += 1
             id = object_cnt[name]

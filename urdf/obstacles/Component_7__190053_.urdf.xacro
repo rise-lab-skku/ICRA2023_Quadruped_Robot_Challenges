@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-	<xacro:macro name="obj_1200x2400_OSB" params="handle parent position orientation">
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:macro name="obs_Component_7__190053_" params="handle parent position orientation">
 
-	<joint name="1200x2400_OSB${handle}_joint" type="fixed">
+	<joint name="Component_7__190053_${handle}_joint" type="fixed">
 		<origin xyz="${position}" rpy="${orientation}"/>
 		<parent link="${parent}"/>
-		<child link="1200x2400_OSB${handle}"/>
+		<child link="Component_7__190053_${handle}"/>
 	</joint>
-	<link name="1200x2400_OSB${handle}">
+
+	<link name="Component_7__190053_${handle}">
 
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 0 0"/>
@@ -22,7 +23,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"/>
 			<geometry>
-				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/1200x2400_OSB.obj"/>
+				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/Component_7__190053_.obj"/>
 			</geometry>
 			<material name="">
 			</material>
@@ -31,7 +32,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"/>
 			<geometry>
-				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/1200x2400_OSB.obj"/>
+				<mesh filename="package://ICRA2023_Quadruped_Competition/meshes/assembly/Component_7__190053_.obj"/>
 			</geometry>
 			<material name="">
 			</material>
@@ -39,7 +40,7 @@
 
 	</link>
 
-	<gazebo reference="1200x2400_OSB${handle}">
+	<gazebo reference="Component_7__190053_${handle}">
 	</gazebo>
 
 	</xacro:macro>
