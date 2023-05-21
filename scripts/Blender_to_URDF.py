@@ -23,11 +23,12 @@ class Obstacle():
 
 class MapURDFGenerator:
 
-    def __init__(self, name, path):
+    def __init__(self, name, path, macros):
         # init parameters
         self.package_path = path
         self.name = name
         self.file_path = self.package_path +'/urdf/map.urdf.xacro'
+        self.macros = macros
 
 
     def generate(self, object_data):
@@ -42,42 +43,37 @@ class MapURDFGenerator:
         f.write('<?xml version="1.0" ?>\n')
         f.write('<robot xmlns:xacro="http://ros.org/wiki/xacro" name="'+self.name+'">\n\n')
         f.write('\t<link name="world"/>\n\n')
-        f.write('\t<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/obstacles/materials.xacro" />\n\n')
+
+        # include
+        for macro in self.macros:
+            f.write('\t<!-- ' + macro + ' -->\n')
+            f.write('\t<xacro:include filename="$(find '+ PKG_NAME + ')/urdf/obstacles/' + macro + '.urdf.xacro"/>\n\n')
 
         # contents
-        for obj_class in object_data.keys():
-            self.add_object(f, object_data[obj_class])
+        for obj in object_data:
+            if obj.name != '':
+                self.add_object(f, obj)
 
         # close
+        f.write('\n\t<gazebo>\n')
+        f.write('\t\t<static>true</static>\n')
+        f.write('\t</gazebo>\n\n')
+
         f.write("</robot>")
         f.close()
         return True
 
-    def add_object(self, file, object_list):
-        if len(object_list)>0:
-            obj_name = object_list[0].name
+    def add_object(self, file, obstacle):
+        obj_name = obstacle.name
 
-            if obj_name == '4_inch_solid_wood_block':
-                obj_name = 'solid_wood_block'
-            elif obj_name == 'Akro_Mils_37278':
-                obj_name = 'Akro_mils'
-            elif obj_name == 'Plastic_Storage_Crate_visual':
-                obj_name = 'Plastic_Storage_Crate'
+        position = str(obstacle.pos[0]) + ' ' + str(obstacle.pos[1]) + ' ' + str(obstacle.pos[2])
 
-            # include object xacro
-            file.write('\t<!-- ' + obj_name + ' -->\n')
-            file.write('\t<xacro:include filename="$(find '+ PKG_NAME + ')/urdf/obstacles/' + obj_name + '.urdf.xacro"/>\n\n')
+        quaternioin = obstacle.quat
+        # convert quaternion to rpy
+        rpy = self.quaternion_to_euler(quaternioin)
+        orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])
 
-            for obj in object_list:
-
-                position = str(obj.position[0]) + ' ' + str(obj.position[1]) + ' ' + str(obj.position[2])
-
-                quaternioin = obj.orientation
-                # convert quaternion to rpy
-                rpy = self.quaternion_to_euler(quaternioin)
-                orientation = str(rpy[0]) + ' ' + str(rpy[1]) + ' ' + str(rpy[2])
-
-                file.write('\t<xacro:' + obj_name + ' parent="world" handle="' + str(obj.handle) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
+        file.write('\t<xacro:obs_' + obj_name.replace("'", "inch") + ' parent="world" handle="' + str(obstacle.id) + '" position="' + position + '" orientation="' + orientation + '"/>\n')
 
     def quaternion_to_euler(self, quaternion):
         euler = tf.transformations.euler_from_quaternion(quaternion)
@@ -107,7 +103,7 @@ class ObstacleURDFGenerator:
         # header
         f.write('<?xml version="1.0" encoding="utf-8"?>\n\n')
         f.write('<robot xmlns:xacro="http://ros.org/wiki/xacro">\n')
-        f.write('\t<xacro:macro name="obs_' + self.name + '" params="handle parent position orientation">\n\n')
+        f.write('\t<xacro:macro name="obs_' + self.name.replace("'", "inch") + '" params="handle parent position orientation">\n\n')
 
         # virtual joint
         f.write('\t<joint name="' + self.name + '${handle}_joint" type="fixed">\n')
@@ -161,6 +157,7 @@ class ObstacleURDFGenerator:
 
 object_instances = []
 object_ids = []
+object_cnt = {}
 ['1200x2400_OSB', '1200x600_OSB', '12_00x1200_OSB_1', '12_00x1200_OSB', '1_1m_5x10cm_beam', '1_2m_5x10cm_beam_1', '1_2m_5x10cm_beam', '1', '2_4m_5x10cm_beam', '2', '300x600_OSB', '3', "42'_2x2_baluster", '450mm_hurdle_retainer', '4_1', '5x5x30_cm_wall_corner', '600x1200_OSB', '600x2400_OSB', '', 'Component_246', 'Component_247', 'Component_248', 'Component_249', 'Component_251', 'Component_272', 'Component_2', 'Component_363', 'Component_7', 'Crate_4', 'Diagonal_beam_5x10cm_1', 'fin_2', 'foam', 'Group_1595', 'Group_1596', 'Group_2258', 'Group_2261', 'Group_362', 'Group_368', 'Group_369', 'Group_36', 'Group_371', 'Group_38', 'Group_41', 'Group_73', 'Group_74', 'Group_75', 'Group_9', 'Half_Crate', 'Hingeplate', 'Hurdle_pipe', 'Hurdle_spacer', 'K_rail_rail', 'Obstructed1', 'Obstructed1A', 'Obstructed2', 'Obstructed2A', 'Obstructed3', 'Obstructed3A', 'Obstructed4', 'Obstructed4A', 'Pallet_leg', 'Ramp_side', 'Ramp_top', 'RampBrace', 'Slope_back', 'Slope_backplate', 'Slope_leg', 'Slope_post_1', 'Slope_post_2', 'Slope_sidewall', 'Sloper_brace', 'WtBkt_GrnRng_8in_4', 'WtBkt_GrnRng_8in_5']  #73
 
 # read csv file line by line by ;
@@ -170,9 +167,11 @@ with open(PKG_PATH + '/scripts/object_list.txt','r') as csvfile:
         alias = row[0].split('.')
         id = 0
         name = alias[0].split('__')[0]
-        #print(i,name)
-        if len(alias) > 1:
-            id = int(alias[1])
+        if name in object_cnt:
+            object_cnt[name] += 1
+            id = object_cnt[name]
+        else:
+            object_cnt[name] = 0
 
         size = [float(row[1]), float(row[2]), float(row[3])]
         pos = [float(row[4]), float(row[5]), float(row[6])]
@@ -186,9 +185,10 @@ object_ids = list(dict.fromkeys(object_ids))
 print((object_ids, len(object_ids)))
 
 for obj in object_instances:
-        print(obj.name, obj.id, obj.size, obj.pos, obj.quat, obj.euler)
         ug = ObstacleURDFGenerator(obj.name, PKG_PATH, 'obj')
         ug.generate()
 
+ug = MapURDFGenerator('competition_map', PKG_PATH, object_ids)
+ug.generate(object_instances)
 
 
