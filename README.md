@@ -9,7 +9,7 @@
 
 **Package summary**
 
-A repository for quadruped robot competition. Used for build, test, and deployment.
+A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and deployment.
 
 - Maintainer status: maintained
 - Maintainers
@@ -37,12 +37,15 @@ A repository for quadruped robot competition. Used for build, test, and deployme
 
 ## Overview
 
-[<img src="https://www.ros.org/imgs/logo-white.png" width="250"/>](http://www.ros.org/)
+[<img src="https://cdn.asp.events/CLIENT_TFI_Lode_BAD7CE92_0DD6_8AE0_2284A46F94274BB5/sites/ICRA2023/media/Logos/ICRA-Final-Logo_ICRA-Main-Logo.jpg" width="200"/>](https://www.icra2023.org/competitions)
+[<img src="https://www.ros.org/imgs/logo-white.png" width="200"/>](http://www.ros.org/)
 
 <img src="doc/gazebo_map.png" width=""/>
 
-- A repository for quadruped robot competition. Used for build, test, and deployment.
-- This repository provides a ROS urdf package of robot competition map environment for simulations.
+- A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and deployment.
+- This repository provides a ROS URDF package for simulation map.
+- You can download and check map overview from <a href="doc/ICRA2023_Quadruped_Robot_Challenges_map_overview.pdf" download>here</a>.
+- You can find information about the challenge on the <a href="https://quadruped-robot-challenges.notion.site/">notion page </a>
 
 ---
 
