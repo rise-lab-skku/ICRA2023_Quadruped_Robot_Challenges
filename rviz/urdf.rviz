@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /RobotModel1
+        - /RobotModel1/Links1
       Splitter Ratio: 0.5
     Tree Height: 713
   - Class: rviz/Selection
@@ -78,7 +78,7 @@ Visualization Manager:
       Value: true
       Visual Enabled: true
     - Class: rviz/TF
-      Enabled: false
+      Enabled: true
       Frame Timeout: 15
       Frames:
         All Enabled: true
@@ -91,12 +91,12 @@ Visualization Manager:
       Tree:
         {}
       Update Interval: 0
-      Value: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: world
+    Fixed Frame: map_part1
     Frame Rate: 30
   Name: root
   Tools:
@@ -120,7 +120,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 12.163296699523926
+      Distance: 19.72146224975586
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -128,17 +128,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 8.044650077819824
-        Y: 3.2244088649749756
-        Z: -0.43164387345314026
+        X: 7.088817119598389
+        Y: -5.074834823608398
+        Z: -5.132663249969482
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7403960824012756
+      Pitch: 0.795396089553833
       Target Frame: <Fixed Frame>
-      Yaw: 5.241779327392578
+      Yaw: 3.6817774772644043
     Saved: ~
 Window Geometry:
   Displays:
