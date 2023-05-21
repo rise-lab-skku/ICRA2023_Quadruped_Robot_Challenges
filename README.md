@@ -1,6 +1,6 @@
-# ROS package for ICRA2023 Quadruped Robot Challenges simulation map 
+# ICRA 2023 quadruped competition simulation map
 
-- Version 1.0.1
+- Version 2.0.1
 
 ---
 
@@ -9,12 +9,11 @@
 
 **Package summary**
 
-A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and deployment.
+A repository for quadruped robot competition. Used for build, test, and deployment.
 
 - Maintainer status: maintained
 - Maintainers
   - Jeongmin Jeon (nicky707@g.skku.edu)
-  - Jinjae Shin (jinjae92@g.skku.edu)
   - Hyungpil Moon (hyungpil@g.skku.edu)
 - Author
   - Jeongmin Jeon (nicky707@g.skku.edu)
@@ -42,10 +41,9 @@ A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and 
 
 <img src="doc/gazebo_map.png" width=""/>
 
-- A repository for ICRA2023 Quadruped Robot Challenges. Used for build, test, and deployment.
-- This repository provides a ROS URDF package for simulation map.
-- You can download and check map overview from <a href="doc/ICRA2023_Quadruped_Robot_Challenges_map_overview.pdf" download>here</a>.
-- You can find information about the challenge on the <a href="https://quadruped-robot-challenges.notion.site/">notion page </a>
+- A repository for quadruped robot competition. Used for build, test, and deployment.
+- This repository provides a ROS urdf package of robot competition map environment for simulations.
+
 ---
 
 ## Installation methods
@@ -76,7 +74,7 @@ clone the URDF package
 cd $ROS_WORKSPACE
 mkdir src
 cd src
-git clone https://github.com/rise-lab-skku/ICRA2023_Quadruped_Robot_Challenges
+git clone https://github.com/rise-lab-skku/ICRA2023_Quadruped_Competition
 ```
 
 build & install
@@ -87,30 +85,13 @@ catkin_make
 
 visualization with Rviz
 ```bash
-roslaunch ICRA2023_Quadruped_Robot_Challenges rviz.launch 
+roslaunch ICRA2023_Quadruped_Competition rviz.launch 
 ```
 
 import urdf environment from gazebo
 ```bash
-roslaunch ICRA2023_Quadruped_Robot_Challenges gazebo_world.launch 
+roslaunch ICRA2023_Quadruped_Competition gazebo_world.launch 
 ```
 
 
 In this version, we only provide a method to import the urdf environment from gazebo simulation. If you want to use another simulator, import `urdf/map.urdf` directly
-
-
-## Realtime Issue
-The number of obstacles may be so large that the simulation speed is not guaranteed depending on the computer specifications.
-
-There are two ways to speed up the simulation.
-
-- If you have selected a course, you can use the launch parameter to load only the obstacles for that specific course.
-```bash
-roslaunch ICRA2023_Quadruped_Robot_Challenges gazebo_world.launch course:=inner or outer
-```
-
-You can speed up the simulation by adjusting the max step size of the simulation. 
-In this case, the physics calculation will be less accurate.
-For Gazebo, select the Physics menu from the world tab on the left and adjust the max step size below. (default: 0.001)
-
-- If you are having trouble loading a lot of objects, use a single stl file `meshes/compound/terrain_map.stl` to generate your maps

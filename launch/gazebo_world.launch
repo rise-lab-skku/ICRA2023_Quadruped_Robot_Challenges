@@ -20,12 +20,12 @@
   </include>
 
   <!-- Load the URDF into the ROS Parameter Server -->
-  <param name="robot_description"
-    command="$(find xacro)/xacro --inorder '$(find ICRA2023_Quadruped_Competition)/urdf/$(arg course)map.urdf.xacro'" /> 
+  <param name="map_description"
+    command="$(find xacro)/xacro --inorder '$(find ICRA2023_Quadruped_Competition)/urdf/map$(arg course).urdf.xacro'" /> 
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
-
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"
-     args="-urdf -param robot_description -model competition_map" />
+     args="-urdf -param map_description -model competition_map" />
+
 
 </launch>
