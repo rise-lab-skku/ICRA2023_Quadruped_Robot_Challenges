@@ -96,5 +96,10 @@ import urdf environment from gazebo
 roslaunch ICRA2023_Quadruped_Competition gazebo_world.launch 
 ```
 
+You can use the launch argument to select and load only maps of that difficulty level.
+```bash
+roslaunch ICRA2023_Quadruped_Competition gazebo_world.launch course:=hard # or easy
+```
+
 
 In this version, we only provide a method to import the urdf environment from gazebo simulation. If you want to use another simulator, import `urdf/map.urdf` directly

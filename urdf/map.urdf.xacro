@@ -1,11 +1,13 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="competition_map">
 
+ 	<xacro:arg name="course" default="part"/>
+
 	<link name="world"/>
 
 	<xacro:include filename="$(find ICRA2023_Quadruped_Competition)/urdf/maps/map_part.urdf.xacro"/>
 
-	<xacro:map_part parent="world" handle="1" position="0 0 0" orientation="0.0 0.0 0.0"/>
+	<xacro:map_part parent="world" handle="1" position="0 0 0" orientation="0.0 0.0 0.0" course="$(arg course)"/>
 	
 	<gazebo>
 		<static>true</static>

@@ -7,7 +7,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="course" default=""/>
+  <arg name="course" default="part"/> <!-- choose hard or easy -->
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -21,7 +21,7 @@
 
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="map_description"
-    command="$(find xacro)/xacro --inorder '$(find ICRA2023_Quadruped_Competition)/urdf/map$(arg course).urdf.xacro'" /> 
+    command="$(find xacro)/xacro --inorder '$(find ICRA2023_Quadruped_Competition)/urdf/map.urdf.xacro' course:=$(arg course)" /> 
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"
